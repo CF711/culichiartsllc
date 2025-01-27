@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AboutCard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import { useTranslation } from "react-i18next";
 
 import "./About.scss";
@@ -32,7 +31,6 @@ function About() {
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
               className="about-img"
               >
-              <img src={laptopImg} alt="about" className="img-fluid" />
             </Col>
           </Row>
         </Container>

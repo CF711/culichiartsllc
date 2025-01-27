@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import Type from "./Type";
 import "../../Assets/paint.svg";
 
 import "./Home.scss";
@@ -50,7 +49,6 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
               </div>
             </Col>
 

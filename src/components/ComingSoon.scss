@@ -1,0 +1,33 @@
+@import "../variables";
+
+section {
+    .home-section {
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        z-index: 10000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        background-color: $ca-yellow;
+        .coming-soon-content {
+            h1 {
+                font-weight: bold;
+                font-size: 48px;
+                color: $ca-black;
+            }
+            p {
+                font-size: 48px;
+                margin-top:25px;
+            }
+            text-align: center;
+            padding: 0;
+            .content {
+                width: 50%;
+                margin: auto;
+            }
+            max-width: none;
+        }
+    }
+}
