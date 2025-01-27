@@ -1,0 +1,34 @@
+@import "../../variables";
+
+.about-card {
+    &.left-aligned-card {
+        text-align: left;
+        background-color: $ca-blue;
+        .card .card-title {
+            color: $ca-yellow;
+        }
+    }
+
+    &.right-aligned-card {
+        text-align: right;
+        float: right;
+        background-color: white;
+    }
+    .card {
+        border: None;
+        border-radius: 0;
+        padding-bottom: 20px; 
+        background-color: transparent;
+        .card-title {
+            color: $ca-blue;
+            h2 {
+                font-size: 36px;
+                font-weight: bold;
+                padding: 15px 15px 0 15px;
+            }
+        }
+        .card-body {
+            color: $ca-black;
+        }
+    }
+}

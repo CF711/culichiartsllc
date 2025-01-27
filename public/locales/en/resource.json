@@ -1,0 +1,56 @@
+{
+    "common": {
+        "name": "Culichi Arts",
+        "header": {
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "contact": "Contact Us"
+        }
+    },
+    "home": {
+
+    },
+    "about": {
+        "who": {
+            "title": "Who We Are",
+            "description": "Our organization prioritizes STEAM education, focusing on underserved communities in the Greater Boston area where English is a second language, emphasizing the intersection of art and engineering to foster creative thinking among youth."
+        },
+        "what": {
+            "title": "What We Do",
+            "description": "At Culichi Arts we explore the intersection of art, engineering and urban agriculture. Through hands-on workshops and partnerships. We empower young people to become creative problem solvers and stewards of sustainability, fostering a better future for our communities."
+        },
+        "goals": {
+            "title": "Goals",
+            "description": "\"Our goal is to engage the community by showcasing how art drives innovation and problem-solving. Through art, we find a powerful tool for learning and expression—one that reflects our needs, addresses challenges, and inspires solutions.\"problem-solvers and stewards of sustainability, fostering a brighter future for our communities"
+        },
+        "vision": {
+            "title": "Vision",
+            "description": "Culichi Arts is dedicated to providing an integrated and holistic education, merging the arts and  science fostering creativity and scientific thinking in children. Through our innovative educational model, we aim to cultivate environmental awareness by teaching sustainable practices such as hydroponics, while nurturing personal and social skills through collaborative activities. Serving as a community resource, our philosophy engages and benefits the local community through initiatives that encourage participation and ongoing learning. \n\n By equipping children with knowledge and practical skills, we empower a new generation to be self-reliant and mindful of their impact on the world, inspiring them to become proactive agents of change within their communities."
+        },
+        "mission": {
+            "title": "Mission",
+            "description": "Our organization prioritizes STEAM education, focusing on underserved communities in the Greater Boston area where English is a second language. We offer integrated workshops where children learn about art and urban agriculture simultaneously. This space allows children to express themselves creatively while learning about sustainability and life sciences through hydroponics. Our emphasis on the intersection of art and engineering fosters creative thinking among youth."
+        }
+    },
+    "services": {
+        "title": "Services",
+        "description": "Here are some of the services we offer",
+        "steam-workshops": {
+            "title": "Steam Workshops/Kits",
+            "description": ""
+        },
+        "art-programming": {
+            "title": "Art Programming",
+            "description": ""
+        },
+        "card-button": "Learn More"
+    },
+    "contact": {
+        "name-label": "Name",
+        "email-label": "Email",
+        "message-label": "Message",
+        "contact-header": "Contact Us!",
+        "contact-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+}

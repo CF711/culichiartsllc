@@ -1,0 +1,82 @@
+@import "../../variables.scss";
+
+.container-fluid.contact-us-section {
+    background-color: white;
+    padding: 30px 0;
+    .contact-inner-container {
+        width: 75%;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: left;
+        padding: 15px 15px;
+        color: $ca-black;
+        background-color: $ca-blue;
+        border: solid 2px black;
+        -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+        -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+        box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+    }
+}
+
+.contact-us-header h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: $ca-yellow;
+}
+
+.form-field {
+    margin: 20px 0;
+    &.textarea-container {
+        label {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+    label {
+        display: inline-block;
+        width: 90px;
+        margin-right: 10px;
+    }
+    .contact-input {
+        width: 250px;
+        border-radius: 8px;
+    }
+    .contact-message {
+        border-radius: 8px;
+        width: 75%;
+    }
+}
+
+.submit-container {
+    margin-bottom: 20px;
+
+    .submit-button {
+        border: solid 2px $ca-black;
+        width: 100px;
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px 20px;
+        background-color: $ca-blue;
+        color: $ca-black;
+        font-weight: bold;
+    }
+
+    .form-submission-text {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: $screen-md) {
+    .form-field {
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-input {
+            width: 100%;
+        }
+        .contact-message {
+            width: 100%;
+        }
+    }
+}

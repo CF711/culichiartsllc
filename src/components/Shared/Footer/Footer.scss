@@ -1,0 +1,29 @@
+@import "../../../variables";
+
+.footer {
+    background-color: $ca-yellow;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    color: $ca-black;
+    border-top: solid 2px $ca-black;
+    .row .footer-copywright {
+      text-align: center;
+      .ca-copywright {
+        padding: 0;
+        font-size: 1.25em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+  
+  @media (min-width: $screen-md) {
+    .footer .row .footer-copywright {
+      text-align: right;
+      .ca-copywright {
+        padding-right: 3em;
+        font-size: 1em;
+      }
+    }
+  }

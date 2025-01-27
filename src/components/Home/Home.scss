@@ -1,0 +1,77 @@
+@import "../../variables.scss";
+
+.home-section {
+    position: relative;
+    z-index: -1;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.home-header {
+    padding-top: 80px !important;
+}
+  
+.home-content {
+    padding: 9rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.home-about-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+}
+  
+.home-about-description {
+    color: white !important;
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+  
+.home-about-body {
+    padding-top: 50px;
+    font-size: 1.2em !important;
+    text-align: left;
+}
+
+/* ----------------- */
+/* Paintbrush Effect */
+/* ----------------- */
+
+.brush-wrap {
+    position: relative;
+    display: inline-block;
+    padding: 3rem;
+  }
+  
+  /* applying example animation (indefinite variant) */
+  .brush-wrap.brush-wrap--indefinite:before {
+    clip-path: url(#clip-indefinite);
+  }
+  
+  /* clipping/animating object (pseudo element) */
+  .brush-wrap:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $ca-blue;
+    z-index: -1;
+    clip-path: url(#clip); /* applying clip animation */
+  }
+  
+  .brush-wrap p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: $ca-black;
+    font-style: italic;
+    filter: drop-shadow(0px 0px 2px black);
+  }

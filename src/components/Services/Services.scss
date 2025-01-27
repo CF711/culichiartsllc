@@ -1,0 +1,35 @@
+@import "../../variables";
+
+.services-section {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: $ca-black;
+  }
+  
+  .services-card {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+  }
+  
+  .card-img-top {
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  .blog-img {
+    padding: 0px;
+    opacity: 0.8;
+    border-radius: 0px;
+  }
+  
+  .services-heading {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 500;
+  }

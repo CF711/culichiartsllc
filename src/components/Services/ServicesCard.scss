@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.card.services-card-view {
+    color: $ca-black;
+    background-color: $ca-blue;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+    border-radius: 0px;
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+    &:hover {
+        transform: scale(1.02);
+        overflow: hidden;
+        -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0);
+        -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0);
+        box-shadow: 10px 10px 0px 0px rgba(0,0,0);
+    }
+}
