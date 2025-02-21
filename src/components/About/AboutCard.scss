@@ -17,18 +17,24 @@
     .card {
         border: None;
         border-radius: 0;
-        padding-bottom: 20px; 
+        padding: 0 90px 20px; 
         background-color: transparent;
         .card-title {
-            color: $ca-blue;
+            color: $ca-black;
             h2 {
                 font-size: 36px;
                 font-weight: bold;
-                padding: 15px 15px 0 15px;
             }
         }
         .card-body {
             color: $ca-black;
+            padding: 1rem 0;
         }
+    }
+}
+
+@media (max-width: 767px) {
+    .about-card .card {
+      padding: 0 20px 20px;
     }
 }

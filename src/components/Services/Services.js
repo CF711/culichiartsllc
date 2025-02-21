@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ServicesCard from "./ServicesCard";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
-import neonPaint from "../../Assets/Services/neon-paint.png"
-import printing from "../../Assets/Services/printing.png"
+import neonPaintImg from "../../Assets/Services/neon-paint.png"
+import artProgrammingImg from "../../Assets/Services/art-programming.png"
 
 import "./Services.scss";
 
@@ -13,17 +13,20 @@ function Services() {
 
   return (
     <Container fluid className="services-section">
-      <Container>
+      <Container className="services-inner-container">
         <h1 className="services-heading">
           <strong className="highlighted">{t('services.title')}</strong>
         </h1>
-        <p>
-          {t('services.description')}
+        <p className="service-description">
+          <Trans i18nKey="services.description.line1" />
+          <br />
+          <br />
+          <Trans i18nKey="services.description.line2" />
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="services-card">
             <ServicesCard
-              imgPath={neonPaint}
+              imgPath={neonPaintImg}
               title={t('services.steam-workshops.title')}
               description={t('services.steam-workshops.description')}
             />
@@ -31,12 +34,15 @@ function Services() {
 
           <Col md={6} className="services-card">
             <ServicesCard
-              imgPath={printing}
+              imgPath={artProgrammingImg}
               title={t('services.art-programming.title')}
               description={t('services.art-programming.description')}
             />
           </Col>
         </Row>
+        <p className="service-description">
+          <Trans i18nKey="services.description.line3" />
+        </p>
       </Container>
     </Container>
   );

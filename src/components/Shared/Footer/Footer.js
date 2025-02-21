@@ -13,7 +13,7 @@ function Footer() {
       <Suspense fallback={<Loading />}>
         <Row>
           <Col md="12" className="footer-copywright">
-            <h3 className="ca-copywright">Copyright © {year} {t('common.name')}</h3>
+            <h3 className="ca-copywright">{t('common.footer.copywrite')} © {year} {t('common.name')}</h3>
           </Col>
         </Row>
       </Suspense>

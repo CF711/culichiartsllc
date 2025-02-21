@@ -18,10 +18,15 @@
     }
 }
 
-.contact-us-header h2 {
-    font-size: 48px;
-    font-weight: bold;
-    color: $ca-yellow;
+.contact-us-header {
+    h2 {
+        font-size: 48px;
+        font-weight: bold;
+        color: $ca-yellow;
+    }
+    p {
+        white-space: pre-line;
+    }
 }
 
 .form-field {
@@ -67,6 +72,9 @@
 }
 
 @media (max-width: $screen-md) {
+    .container-fluid.contact-us-section .contact-inner-container {
+        width: 90%;
+    }
     .form-field {
         label {
             display: block;

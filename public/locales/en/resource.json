@@ -6,10 +6,13 @@
             "about": "About",
             "services": "Services",
             "contact": "Contact Us"
+        },
+        "footer": {
+            "copywrite": "Copywrite"
         }
     },
     "home": {
-
+        "greeting": "Hi there! We are"
     },
     "about": {
         "who": {
@@ -35,7 +38,11 @@
     },
     "services": {
         "title": "Services",
-        "description": "Here are some of the services we offer",
+        "description": {
+            "line1": "We offer <strong>custom creative programming</strong> designed to spark curiosity and hands-on learning for all ages. Whether you're looking for an interactive workshop for young children, a STEAM-based activity for teens, or a unique team-building experience for adults, we adapt each program to fit your group’s needs. Our sessions blend art, engineering, and playful experimentation, making learning both fun and meaningful.",
+            "line2": "Our <strong>guided art projects</strong> provide step-by-step instruction while leaving plenty of room for creative expression. Led by experienced facilitators, these projects introduce new techniques, encourage problem-solving, and help participants bring their artistic visions to life. Perfect for schools, libraries, community events, and pop-ups, our workshops are designed to be engaging, educational, and accessible to all skill levels.",
+            "line3": "For those looking for a <strong>ready-made creative experience</strong>, we offer a selection of <strong>activity kits</strong> that bring the fun straight to you! Our kits come with everything needed to create, experiment, and explore—whether it’s building a doodle car, crafting a glow-in-the-dark lava lamp, or discovering new textures with puzzle-shaped rainbow crayons. Ideal for classrooms, after-school programs, and family-friendly events, our kits make it easy to add hands-on creativity to any setting."
+        },
         "steam-workshops": {
             "title": "Steam Workshops/Kits",
             "description": ""
@@ -51,6 +58,6 @@
         "email-label": "Email",
         "message-label": "Message",
         "contact-header": "Contact Us!",
-        "contact-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "contact-body": "Don’t hesitate to drop us a message!\nAre you planning a fun pop-up event or looking to infuse creativity into your space? Talk to us about custom projects or collaborations."
     }
 }

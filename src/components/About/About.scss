@@ -8,17 +8,48 @@
     background-color: white;
     &.container-fluid {
         padding: 50px 0;
+        .about-header {
+          max-width: none;
+          padding: 0 90px 20px;
+          margin: 0 0 50px;
+        }
     }
     .container.card-section {
         width: 100%;
-        margin:0;
+        margin: 0;
         max-width: 100%;
     }
   }
-  
+  .about-text .about-header-text {
+    font-weight: bold;
+  }
+
+  .left-text {
+    text-align: left;
+  }
+
+  .photo-carousel.carousel-item {
+    justify-content: center;
+    &.active {
+      display: flex;
+    }
+  }
+
   @media (max-width: 767px) {
     .about-img {
       padding-top: 0;
+      order: 1;
+      padding-bottom: 20px;
+    }
+    .about-section.container-fluid .about-header {
+        padding: 0 20px 20px;
+    }
+    .about-text {
+      order: 2;
+      text-align: left;
+    }
+    .right-text {
+      text-align: left;
     }
   }
   

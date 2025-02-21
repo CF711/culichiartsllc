@@ -1,6 +1,7 @@
 {
   "name": "culichiarts",
-  "version": "0.1.0",
+  "homepage": "https://culichiarts.com",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",

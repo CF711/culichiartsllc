@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import AboutCard from "./AboutCard";
 import { useTranslation } from "react-i18next";
 
+import artScience from "../../Assets/art-science.png";
+import PhotoCarousel from "./PhotoCarousel";
+
 import "./About.scss";
 
 function About() {
@@ -10,16 +13,10 @@ function About() {
 
     return (
       <Container fluid className="about-section">
-        <Container>
-          <Row style={{ justifyContent: "center" }}>
-            <Col
-              md={7}
-              style={{
-                justifyContent: "center",
-                paddingBottom: "50px",
-              }}
-              >
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+        <Container className="about-header">
+          <Row>
+            <Col md={7} sm={12} className="about-text left-text">
+              <h1 className="about-header-text" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                 Who <strong className="highlighted">WE</strong> Are
               </h1>
               <p>
@@ -28,16 +25,23 @@ function About() {
             </Col>
             <Col
               md={5}
-              style={{ paddingTop: "120px", paddingBottom: "50px" }}
+              sm={12}
               className="about-img"
               >
+                <PhotoCarousel />
             </Col>
           </Row>
         </Container>
-        <Container className="card-section">
+        <Container className="card-section left-text">
           <AboutCard title={t('about.what.title')} text={t('about.what.description')} isLeftAligned={true} />
-          <AboutCard title={t('about.vision.title')} text={t('about.vision.description')} isLeftAligned={false} />
-          <AboutCard title={t('about.mission.title')} text={t('about.mission.description')} isLeftAligned={true} />
+          <Row>
+            <Col md={6} sm={12}>
+              <AboutCard title={t('about.mission.title')} text={t('about.mission.description')} />
+            </Col>
+            <Col md={6} sm={12}>
+              <AboutCard title={t('about.vision.title')} text={t('about.vision.description')} isLeftAligned={false} />
+            </Col>
+          </Row>
         </Container>
       </Container>
     );

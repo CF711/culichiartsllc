@@ -9,6 +9,9 @@
     -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0);
     -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0);
     box-shadow: 8px 8px 0px 0px rgba(0,0,0);
+    .services-card-img {
+        max-height: 400px;
+    }
     &:hover {
         transform: scale(1.02);
         overflow: hidden;

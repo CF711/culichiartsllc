@@ -1,41 +1,43 @@
 @import "../../variables.scss";
 
-.home-section {
+section .home-section {
     position: relative;
     z-index: -1;
-    background-position: top center;
-    background-repeat: no-repeat;
     background-color: white;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 0;
+    width: 100%;
+    .home-content {
+      color: $ca-black;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      max-width: None;
+      padding: 0;
+      height: 100vh;
+  }
 }
 
 .home-header {
-    padding-top: 80px !important;
-}
-  
-.home-content {
-    padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    padding-top: 80px;
     text-align: left;
 }
 
 .home-about-section {
     position: relative;
-    padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    padding-bottom: 70px;
+    padding-top: 70px;
 }
   
 .home-about-description {
-    color: white !important;
-    padding-top: 100px !important;
-    padding-bottom: 20px !important;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
     text-align: center;
 }
   
 .home-about-body {
     padding-top: 50px;
-    font-size: 1.2em !important;
+    font-size: 1.2em;
     text-align: left;
 }
 
