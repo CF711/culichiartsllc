@@ -8,12 +8,16 @@
 .navbar {
   position: fixed;
   transition: all 0.3s ease-out 0s;
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 0;
   font-size: 1.2rem;
   background-color: $ca-blue;
   color: $ca-black;
   border-bottom: solid 2px black;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
+  .container {
+    max-width: 90%;
+    padding: 0px;
+  }
 }
 
 .navbar-toggler {
@@ -81,7 +85,7 @@
 }
 
 .logo {
-  width: 1.25em;
+  width: 100px;
   height: auto;
 }
 

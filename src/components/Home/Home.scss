@@ -7,13 +7,19 @@ section .home-section {
     padding: 0;
     width: 100%;
     .home-content {
+      background-color: $ca-yellow;
       color: $ca-black;
       text-align: left;
       width: 100%;
       margin: 0;
       max-width: None;
       padding: 0;
-      height: 100vh;
+      z-index: 100;
+      .img-fluid {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+      }
   }
 }
 

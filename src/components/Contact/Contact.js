@@ -35,35 +35,37 @@ function Contact() {
   };
 
   return (
-    <Container fluid className="contact-us-section">
-      <div className="contact-inner-container">
-        <div className="contact-us-header">
-          <h2>{t('contact.contact-header')}</h2>
-          <p>{t('contact.contact-body')}</p>
+    <section>
+      <Container fluid className="contact-us-section ca-main">
+        <div className="contact-inner-container">
+          <div className="contact-us-header">
+            <h2>{t('contact.contact-header')}</h2>
+            <p>{t('contact.contact-body')}</p>
+          </div>
+          <div className="form-container">
+            <form name="contact_form" onSubmit={onSubmit}>
+              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+              <div className="form-field">
+                <label>{t('contact.name-label')}:</label>
+                <input className="contact-input" type="text" name="name" required/>
+              </div>
+              <div className="form-field">
+                <label>{t('contact.email-label')}:</label>
+                <input className="contact-input" type="email" name="email" required/>
+              </div>
+              <div className="form-field textarea-container">
+                <label>{t('contact.message-label')}:</label>
+                <textarea className="contact-message" name="message" required cols={68} rows={15} />
+              </div>
+              <div className="submit-container">
+                <button className="ca-btn ca-btn-primary" type="submit">Submit</button>
+                <span className="form-submission-text">{result}</span>
+              </div>
+            </form>
+          </div>
         </div>
-        <div className="form-container">
-          <form name="contact_form" onSubmit={onSubmit}>
-            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-            <div className="form-field">
-              <label>{t('contact.name-label')}:</label>
-              <input className="contact-input" type="text" name="name" required/>
-            </div>
-            <div className="form-field">
-              <label>{t('contact.email-label')}:</label>
-              <input className="contact-input" type="email" name="email" required/>
-            </div>
-            <div className="form-field textarea-container">
-              <label>{t('contact.message-label')}:</label>
-              <textarea className="contact-message" name="message" required cols={68} rows={15} />
-            </div>
-            <div className="submit-container">
-              <button className="ca-btn ca-btn-primary" type="submit">Submit</button>
-              <span className="form-submission-text">{result}</span>
-            </div>
-          </form>
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </section>
   );
 }
 

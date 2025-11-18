@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { HOME_ROUTE, ABOUT_ROUTE, SERVICES_ROUTE, CONTACT_ROUTE } from "../consts";
-import logo from "../../../Assets/short-logo.png"
+import logo from "../../../Assets/ca-logo-bw.png"
 
 import "./Navbar.scss"
 
